@@ -1,15 +1,16 @@
-//import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import Counter from "./Counter.js";
 
-function App() {
-  const name = "감비";
-
-  return (
-    <>
-      {/* 이건 주석*/}
-      <div className="react">{name}</div>
-    </>
-  );
-}
+const App = () => {
+  return <Counter />;
+};
 
 export default App;
+
+// import React, { Component } from "react";
+// class App extends Component {
+//   render() {
+//     const name = "클래스형";
+//     return <div className="react">{name}</div>;
+//   }
+// }
