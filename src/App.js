@@ -1,8 +1,13 @@
 import React from "react";
-import Counter from "./Counter.js";
+import LifeCycle from "./LifeCycle.js";
+import Error from "./Error.js";
 
 const App = () => {
-  return <Counter />;
+  return (
+    <Error>
+      <LifeCycle />
+    </Error>
+  );
 };
 
 export default App;

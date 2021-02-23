@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 class Counter extends Component {
-    //constructor메서드에서 state를 설정합니다.
+  //constructor메서드에서 state를 설정합니다.
   constructor(props) {
     super(props);
     // state 의 초깃값
